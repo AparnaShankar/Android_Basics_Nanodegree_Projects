@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen16">16dp</dimen>
+    <dimen name="image_w">298dp</dimen>
+    <dimen name="image_h">300dp</dimen>
+    <dimen name="book_w">128dp</dimen>
+    <dimen name="book_h">204dp</dimen>
+    <dimen name="linear_h">244dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="font_book_search">36sp</dimen>
+</resources>

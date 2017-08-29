@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="app_title">Book List</string>
+    <string name="titleM">Book Search</string>
+    <string name="hint_text">Enter Author Name</string>
+    <string name="search">Search</string>
+    <string name="author">Author:</string>
+    <string name="title">Title:</string>
+    <string name="no_books">No books found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+</resources>

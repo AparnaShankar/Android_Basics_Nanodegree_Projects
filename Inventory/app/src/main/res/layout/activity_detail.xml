@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScroolView"
+    tools:context="appy.aparna.example.com.inventory.DetailActivity">
+
+    <LinearLayout style="@style/LLDetails">
+
+
+        <ImageView
+            android:id="@+id/image_detail"
+            style="@style/displayImage" />
+
+        <LinearLayout style="@style/LLDetailsElement">
+
+            <TextView
+                style="@style/Heading"
+                android:text="@string/product" />
+
+            <TextView
+                android:id="@+id/Name"
+                style="@style/Value"
+                tools:text="One Plus 3" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLDetailsElement">
+
+            <TextView
+                style="@style/Heading"
+                android:text="@string/type" />
+
+            <TextView
+                android:id="@+id/Type"
+                style="@style/Value"
+                tools:text="Phone" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLDetailsElement">
+
+            <TextView
+                style="@style/Heading"
+                android:text="@string/supplier" />
+
+            <TextView
+                android:id="@+id/Supplier"
+                style="@style/Value"
+                tools:text="Amazon" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLDetailsElement">
+
+            <TextView
+                style="@style/Heading"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/Price"
+                style="@style/Value"
+                tools:text="Rs 29000" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/generalStyle"
+            android:text="@string/quantity"
+            android:textAllCaps="true" />
+
+        <LinearLayout
+            style="@style/generalStyle"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_decrement"
+                style="@style/buttonStyle"
+                android:onClick="decrement"
+                android:text="@string/decrement" />
+
+            <TextView
+                android:id="@+id/Quantity"
+                style="@style/quantityStyle"
+                tools:text="1" />
+
+            <Button
+                android:id="@+id/button_increment"
+                style="@style/buttonStyle"
+                android:onClick="increment"
+                android:text="@string/increment" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order"
+            style="@style/OrderbuttonStyle"
+            android:text="@string/order" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/DeleteButtonSytle"
+            android:text="@string/delete" />
+
+    </LinearLayout>
+</ScrollView>

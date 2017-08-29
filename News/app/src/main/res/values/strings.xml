@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">News</string>
+    <!-- Text to display in the list when there is no news [CHAR LIMIT=NONE] -->
+    <string name="no_News">No News articles found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+    <!-- Strings For Number of articles [CHAR LIMIT=30] -->
+    <string name="settings_no_of_articles">Number of News Articles</string>
+    <string name="settings_no_of_articles_key" translatable="false">no_of_articles</string>
+    <string name="settings_no_of_articles_default" translatable="false">10</string>
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">relevance</string>
+    <!-- Strings For Sections[CHAR LIMIT=30] -->
+    <string name="settings_sections">Category</string>
+    <string name="settings_sections_key" translatable="false">sections</string>
+    <string name="settings_sections_default" translatable="false">world</string>
+
+    <string name="settings_order_by_label_newest">Newest</string>
+    <string name="settings_order_by_value_newest">newest</string>
+
+    <string name="settings_order_by_label_oldest">Oldest</string>
+    <string name="settings_order_by_value_oldest">oldest</string>
+
+    <string name="settings_order_by_label_relevance">Relevance</string>
+    <string name="settings_order_by_value_relevance">relevance</string>
+
+    <string name="settings_category_politics_label">Politics</string>
+    <string name="settings_category_politics_value" translatable="false">politics</string>
+
+    <string name="settings_category_world_label">World</string>
+    <string name="settings_category_world_value" translatable="false">world</string>
+
+    <string name="settings_category_environment_label">Environment</string>
+    <string name="settings_category_environment_value" translatable="false">environment</string>
+
+    <string name="settings_category_sport_label">Sport</string>
+    <string name="settings_category_sport_value" translatable="false">sport</string>
+
+    <string name="settings_category_fashion_label">Fashion</string>
+    <string name="settings_category_fashion_value" translatable="false">fashion</string>
+
+    <string name="settings_category_business_label">Business</string>
+    <string name="settings_category_business_value" translatable="false">business</string>
+</resources>

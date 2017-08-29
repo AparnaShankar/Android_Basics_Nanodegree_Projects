@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLinearLayout">
+
+    <TextView
+        android:id="@+id/sec"
+        style="@style/circle"
+        tools:text="O" />
+
+    <LinearLayout style="@style/subLinearLayout">
+
+        <TextView
+            android:id="@+id/section"
+            style="@style/Section"
+            tools:text="Others" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/Title"
+            tools:text="Article Title" />
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/DateTimeLinear">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/dateTime"
+            tools:text="Mar 6, 2010" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/dateTime"
+            tools:text="3:00 PM" />
+
+    </LinearLayout>
+</LinearLayout>

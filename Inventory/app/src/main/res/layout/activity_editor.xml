@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="appy.aparna.example.com.inventory.EditorActivity">
+
+    <LinearLayout style="@style/EditorLinearParent">
+
+        <!-- Overview category -->
+        <LinearLayout style="@style/OverviewStyle">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_overview" />
+
+            <!-- Input fields -->
+            <LinearLayout style="@style/OverViewLinearLayout">
+
+                <!-- Name field -->
+                <EditText
+                    android:id="@+id/edit_pro_name"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/hint_pro_name"
+                    android:inputType="textCapWords" />
+
+                <!-- Type field -->
+                <EditText
+                    android:id="@+id/edit_pro_type"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/hint_pro_type"
+                    android:inputType="textCapWords" />
+
+                <!-- Supplier field -->
+                <EditText
+                    android:id="@+id/edit_pro_supply"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/hint_pro_supplier"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Price category -->
+        <LinearLayout
+            android:id="@+id/container_price"
+            style="@style/PriceLayout">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_price" />
+
+            <!-- Input fields -->
+            <RelativeLayout style="@style/PriceRelative">
+
+                <!-- Price field -->
+                <EditText
+                    android:id="@+id/edit_pro_price"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/hint_pro_price"
+                    android:inputType="number" />
+
+                <!-- Units for price -->
+                <TextView
+                    android:id="@+id/label_price_units"
+                    style="@style/EditorUnitsStyle"
+                    android:text="@string/units" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!-- Quantity category -->
+        <LinearLayout
+            android:id="@+id/container_quantity"
+            style="@style/QuantityLinear">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_quantity" />
+
+            <!-- Quantity field -->
+            <EditText
+                android:id="@+id/edit_pro_quantity"
+                style="@style/EditorFieldStyle"
+                android:layout_marginLeft="@dimen/dimen32"
+                android:hint="@string/hint_pro_quantity"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+
+        <!-- Image category -->
+        <LinearLayout
+            android:id="@+id/container_image"
+            style="@style/ImageLinear">
+
+            <!-- Label-->
+            <TextView
+                style="@style/CategoryStyle2"
+                android:text="@string/category_image" />
+
+            <ImageView
+                android:id="@+id/image"
+                style="@style/AddImageStyle" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            style="@style/ImageFab"
+            app:srcCompat="@drawable/ic_insert_photo_white_48dp" />
+    </LinearLayout>
+
+</ScrollView>

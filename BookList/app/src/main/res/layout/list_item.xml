@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LLItemMain">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/bookImageStyle" />
+
+    <LinearLayout style="@style/LLLevel1">
+
+        <LinearLayout style="@style/LLSub">
+
+            <TextView
+                style="@style/PrimarytextStyle"
+                android:text="@string/title" />
+
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/SecondaryTextStyle" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LLSub">
+
+            <TextView
+                style="@style/PrimarytextStyle"
+                android:text="@string/author" />
+
+            <TextView
+                android:id="@+id/author"
+                style="@style/SecondaryTextStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

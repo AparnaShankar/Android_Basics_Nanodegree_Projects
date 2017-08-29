@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_label_newest</item>
+        <item>@string/settings_order_by_label_oldest</item>
+        <item>@string/settings_order_by_label_relevance</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_value_newest</item>
+        <item>@string/settings_order_by_value_oldest</item>
+        <item>@string/settings_order_by_value_relevance</item>
+    </string-array>
+    <string-array name="settings_section_labels">
+        <item>@string/settings_category_world_label</item>
+        <item>@string/settings_category_politics_label</item>
+        <item>@string/settings_category_business_label</item>
+        <item>@string/settings_category_sport_label</item>
+        <item>@string/settings_category_environment_label</item>
+        <item>@string/settings_category_fashion_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_category_world_value</item>
+        <item>@string/settings_category_politics_value</item>
+        <item>@string/settings_category_business_value</item>
+        <item>@string/settings_category_sport_value</item>
+        <item>@string/settings_category_environment_value</item>
+        <item>@string/settings_category_fashion_value</item>
+    </string-array>
+</resources>

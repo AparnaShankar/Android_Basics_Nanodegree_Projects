@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HyderabadTourism</string>
+    <string name="app_lable">Hyderabad Tourism</string>
+    <string name="category_a">History</string>
+    <string name="category_b">Sites</string>
+    <string name="category_c">Eat Outs</string>
+    <string name="category_d">Hotel</string>
+    <!--History-->
+    <string name="masjid">Mecca Masjid</string>
+    <string name="masjid_d">It is one of the oldest mosques in Hyderabad, Telangana in India. It is one of the largest masajids in India.</string>
+    <string name="charminar">The Charminar</string>
+    <string name="charminar_d">It was constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India.</string>
+    <string name="golconda">Golkonda Fort</string>
+    <string name="golconda_d"> It is a fort in Southern India and was the capital of the medieval sultanate of the Qutb Shahi dynasty.</string>
+    <string name="palace">Chowmahalla Palace</string>
+    <string name="palace_d">It is a palace of the Nizams of Hyderabad state.</string>
+    <!--Sites-->
+    <string name="Birla">Birla Mandir</string>
+    <string name="Birla_d">It is a Hindu temple, built on a 280 feet high hillock called Naubath Pahad on a 13 acres plot</string>
+    <string name="zoo">Nehru Zoological Park</string>
+    <string name="zoo_d">It  was established with the objective of conserving and breeding of endangered species </string>
+    <string name="ntr">NTR Gardens</string>
+    <string name="ntr_d">It is a small public, urban park of 36 acres adjacent to Hussain Sagar lake in Hyderabad, India.</string>
+    <string name="statue">Buddha Statue of Hyderabad</string>
+    <string name="statue_d"> It is the world\'s tallest monolith of Gautama Buddha.</string>
+    <!--Eat-->
+    <string name="east_78">78 Degree East</string>
+    <string name="east_78_d">South Indian and Mughlai dishes combine with those from China and Thailand at this chic venue.</string>
+    <string name="sahib">Sahib Sindh Sultan</string>
+    <string name="sahib_d">Designed to take the diner back to 1853, this train-themed restaurant serves north Indian cuisine.</string>
+    <string name="chutney">Chutney</string>
+    <string name="chutney_d">Chutney is a sauce in the cuisines of the Indian subcontinent.</string>
+    <string name="bahar">Cafe Bahar</string>
+    <string name="bahar_d">It is dining room for Hyderabadi cuisine, family meals and curries.</string>
+    <!--Hotels-->
+    <string name="deccan">Taj Deccan</string>
+    <string name="deccan_d">Set within gardens, this posh hotel is 1.7 km from Khairatabad Railway Station.</string>
+    <string name="krishna">Taj Krishna</string>
+    <string name="krishna_d">This luxe hotel is 1.6 km from the Khairatabad Station and 7 km from the Salar Jung Museum.</string>
+    <string name="castle">Amrutha Castle</string>
+    <string name="castle_d">It is a Bavarian-inspired castle topped by multiple turrets.</string>
+    <string name="marriot">Hyderabad Marriot</string>
+    <string name="marriot_d">This modern, upscale hotel is a 15-minute walk from the nearest train station.</string>
+
+</resources>

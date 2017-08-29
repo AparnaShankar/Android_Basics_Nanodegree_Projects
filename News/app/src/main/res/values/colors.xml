@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="textColorNewsSection">#B4BAC0</color>
+    <color name="textColorNewsTitle">#2B3D4D</color>
+    <color name="world">#4A7BA7</color>
+    <color name="fashion">#04B4B3</color>
+    <color name="sport">#F5A623</color>
+    <color name="environment">#4CAF50</color>
+    <color name="business">#9C27B0</color>
+    <color name="politics">#C03823</color>
+</resources>

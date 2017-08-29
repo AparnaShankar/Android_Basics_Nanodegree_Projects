@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CricketScoreBoard</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="score_a">0</string>
+    <string name="score_b">0</string>
+    <string name="six">SIX</string>
+    <string name="four">FOUR</string>
+    <string name="two">2 runs</string>
+    <string name="one">1 run</string>
+    <string name="reset">RESET</string>
+</resources>

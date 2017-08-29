@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appy.aparna.cricketscoreboard.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/innerLinearStyle">
+
+            <TextView
+                style="@style/nameStyle"
+                android:text="@string/team_a" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/scoreTextStyle"
+                android:text="@string/score_a" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addSixForTeamA"
+                android:text="@string/six" />
+
+            <Button
+                android:onClick="addFourForTeamA"
+                android:text="@string/four"
+                style="@style/buttonStyle" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addTwoForTeamA"
+                android:text="@string/two" />
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addOneForTeamA"
+                android:text="@string/one" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            style="@style/innerLinearStyle">
+
+            <TextView
+                android:text="@string/team_b"
+                style="@style/nameStyle" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:text="@string/score_b"
+                style="@style/scoreTextStyle" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addSixForTeamB"
+                android:text="@string/six" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addFourForTeamB"
+                android:text="@string/four" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addTwoForTeamB"
+                android:text="@string/two" />
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="addOneForTeamB"
+                android:text="@string/one" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:onClick="resetScore"
+        android:text="@string/reset"
+        style="@style/resetButtonStyle" />
+
+</RelativeLayout>

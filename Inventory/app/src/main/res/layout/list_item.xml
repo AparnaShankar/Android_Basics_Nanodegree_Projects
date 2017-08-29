@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemLL">
+
+    <LinearLayout style="@style/ListNameLL">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/ListName"
+            tools:text="One Plus 3" />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/ListPrice"
+            tools:text="Rs 29000" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListQuantLL">
+
+        <TextView
+            style="@style/ListQuant"
+            android:text="@string/quantity"
+            tools:text="Quantity" />
+
+        <TextView
+            android:id="@+id/quantity"
+            style="@style/ListQuantity"
+            tools:text="32" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sell"
+        style="@style/sellButton"
+        android:text="@string/sell" />
+
+</LinearLayout>

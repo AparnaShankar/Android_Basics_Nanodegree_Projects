@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScroolViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dimen16</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MainImage">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/image_w</item>
+        <item name="android:layout_height">@dimen/image_h</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/font_book_search</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_marginTop">@dimen/dimen16</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_marginTop">@dimen/dimen16</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+
+    <style name="ListSytle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LLItemMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/linear_h</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/dimen16</item>
+    </style>
+
+    <style name="bookImageStyle">
+        <item name="android:layout_width">@dimen/book_w</item>
+        <item name="android:layout_height">@dimen/book_h</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="LLLevel1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/linear_h</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/dimen16</item>
+    </style>
+
+    <style name="LLSub">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PrimarytextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/dimen8</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondaryTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="RelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="EmptyView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

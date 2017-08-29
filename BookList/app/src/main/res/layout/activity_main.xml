@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScroolViewStyle"
+    tools:context="appy.aparna.example.com.booklist.MainActivity">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <ImageView
+            style="@style/MainImage"
+            android:src="@drawable/book_search" />
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="@string/titleM" />
+
+        <EditText
+            android:id="@+id/text"
+            style="@style/EditTextStyle"
+            android:hint="@string/hint_text" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/ButtonStyle"
+            android:text="@string/search" />
+
+    </LinearLayout>
+</ScrollView>

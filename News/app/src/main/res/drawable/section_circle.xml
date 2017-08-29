@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Background circle for the section -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/colorAccent" />
+    <size
+        android:width="@dimen/dimen50"
+        android:height="@dimen/dimen50" />
+    <corners android:radius="@dimen/dimen25" />
+</shape>

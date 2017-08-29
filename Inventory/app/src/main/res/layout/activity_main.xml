@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainRelativeLayout"
+    tools:context="appy.aparna.example.com.inventory.MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListViewStyle" />
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        style="@style/EmptyRL">
+
+        <ImageView
+            android:id="@+id/empty_catalogue_image"
+            style="@style/EmptyImage"
+            android:src="@drawable/empty_catalogue" />
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/EmptyText"
+            android:text="@string/empty_view_title_text" />
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/FAB"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
+</RelativeLayout>
+
+
